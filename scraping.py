@@ -54,9 +54,10 @@ fh = ("db.json", 'w')
 
 def main():
 	threads = 4
+	# total post count to scrape
 	post_ct = 800
 
-
+	# Bypass Reddit Api query rate limit with multithreading >:)
 	with Manager() as manager:
 		emoji_bases = [{} for i in range(threads)]
 		ctr = manager.list([0])
