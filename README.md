@@ -14,11 +14,11 @@
 1. Clone the repo:
 
     ```bash
-    git clone https://github.com/yourusername/emojifier-discord-bot.git
-    cd emojifier-discord-bot
+    git clone https://github.com/Michael-Wachsman/Emojifier-Discord-Bot/tree/main
+    cd Emojifier-Discord-Bot
     ```
 
-3. Create a `.env` file with your Discord and Reddit API credentials:
+2. Create a `.env` file with your Discord and Reddit API credentials:
 
     ```
     DISCORD_TOKEN=your_discord_token
@@ -27,13 +27,13 @@
     REDDIT_USER_AGENT=your_user_agent
     ```
 
-4. Run the bot:
+3. Run the bot:
 
     ```bash
     python Discord.py
     ```
 
-5. If you wish to regenerate the emoji mappings or scan different posts, run:
+4. If you wish to regenerate the emoji mappings or scan different posts, run:
 
     ```bash
     python Discord.py
