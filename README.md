@@ -36,7 +36,7 @@
 4. If you wish to regenerate the emoji mappings or scan different posts, run:
 
     ```bash
-    python Discord.py
+    python scraping.py
     ```
 
 ## Usage
